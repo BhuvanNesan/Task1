@@ -1,11 +1,8 @@
 package org.comp;
 
-public class Desktop implements HardWare , Software {
+public class Desktop implements HardWare{
 
-	@Override
-	public void softwareResources() {
-		System.out.println("java");
-	}
+	
 
 	@Override
 	public void hardwareResource() {
@@ -16,7 +13,6 @@ public class Desktop implements HardWare , Software {
 	}
 	public static void main(String[] args) {
 		Desktop des=new Desktop();
-		des.softwareResources();
 		des.hardwareResource();
 		des.desktopModel();
 		
